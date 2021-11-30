@@ -100,6 +100,16 @@ body{
 
 .no {
     display: flex;
-    height: 45vh;
+    height: 48vh;
+    overflow-y: hidden;
+}
+
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
 }
 

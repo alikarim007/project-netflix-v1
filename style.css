@@ -178,17 +178,21 @@ body{
     line-height: 2rem;
 }
 
-.card-1 video{
+.card-1 .video-1{
     position: relative;
     grid-column: 2/2;
     grid-row: 1/2;
     z-index: -1;
-    width: 100%;
-    margin-left: 15%;
-
+    margin-left: 12%;
+    width: 77%;
+    max-width: 100%;
+    height: auto;
+    box-sizing: content-box;
 }
 
 .card-1 img{
+    max-width: 100%;
+    height: auto;
     grid-column: 2/2;
     grid-row: 1/2;
 }
@@ -198,11 +202,17 @@ body{
     grid-column: 2/2;
     grid-row: 1/2;
     z-index: -1;
-    width: 78%;
-    margin-left: 25%;
-    margin-bottom: 35%;
+    width: 62%;
+    margin-left: 18%;
+    margin-bottom: 28%;
+    max-width: 100%;
+    height: auto;
+    box-sizing: content-box;
+
 }
 .card-3 img{
+    max-width: 100%;
+    height: auto;
     grid-column: 2/2;
     grid-row: 1/2;
 }
